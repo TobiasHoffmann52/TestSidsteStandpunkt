@@ -4,13 +4,14 @@
 By lavEnBy(int antalInbyggere) {
   //Skriv koden inde i metoden, så den kan retunere et By-objekt der indeholder et "inbyggerAntal", der svarer til inputtet "antalInbyggere"
   
-  København = new By(antalInbyggere);
+  int[] København = new By(antalInbyggere);
   return København;
 }
 
 class By {
   //Lav en ny konstruktør der modtager antallet af indbyggere som parameter
   int inbyggerAntal;
-  By() {
+  By(int inbyggerAntal) {
+    
   }
 }
