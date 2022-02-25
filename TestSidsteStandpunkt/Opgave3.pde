@@ -6,8 +6,9 @@ Dyr lavEnAnd() {
   return null;
 }
 
-class And {
+class And extends Dyr{
   //Du skal skrive/ændre signatur kode, (dvs. linje 24) og skrive kode inde i klassen.
+  
 }
 
 class Dyr {
